@@ -1,0 +1,37 @@
+div{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border-top: 15px red solid;
+  border-bottom: 15px blue solid;
+  border-left: 15px rgb(231, 164, 20) solid;
+  border-right: 15px green solid;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+section:hover div{
+  animation-name: loader;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes loader {
+    0%{
+        transform: translateY(0px) rotate(0deg);
+    }
+    50%{
+        transform: translateY(600px) rotate(180deg);
+    }
+    100%{
+        transform: translateY(0px) rotate(360deg);
+    }
+}

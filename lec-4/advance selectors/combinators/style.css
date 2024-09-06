@@ -1,0 +1,44 @@
+/* ol li{
+    color: red;
+}
+
+div ol li{
+    color: green;
+} */
+
+/* article li{
+    color: orange;
+} */
+
+
+
+/* --------------------------------------------- */
+
+
+/* child -> ">" */
+
+/* main>section>div>h1{
+    color: aqua;
+} */
+
+/* body div >h1{
+    font-size: 50px;
+    color: red;
+} */
+
+/* --------------------------------------------- */
+/* adjacent sibliing -> + */
+/* body > section + article{
+    background-color: aqua;
+}
+
+#li1+li{
+    color: bisque;
+} */
+
+/* --------------------------------------------- */
+/* genral sibliing -> "~" */
+
+/* #li1~li{
+    color: aquamarine;
+} */

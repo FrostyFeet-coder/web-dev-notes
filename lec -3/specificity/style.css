@@ -1,0 +1,29 @@
+/* id selector -> should never be the sem but if 2 have sem id then it will work */
+#a1{
+    color: rgb(8, 197, 197);
+}
+
+/* element selector */
+h1{
+    
+}
+
+/* class selector */
+
+.abc{
+    color: red;
+}
+/* attribute selector  
+input[type="text"]{
+    color:red
+}
+*/
+
+/* universal selector  */
+*{
+    border: 5px solid orange;
+}
+
+
+
+    

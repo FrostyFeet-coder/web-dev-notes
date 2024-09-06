@@ -1,0 +1,13 @@
+h1{
+    color: rgb(195, 16, 207);
+}
+
+    /* a stands for alpha channel which is b/w 0 -1 and showing opacity */
+
+ p{
+    color: rgb(209, 32, 103);
+ }
+
+ h2{
+     color: #7a7a7aff; /* 6 value for color and 2 for alpha channel */
+ }

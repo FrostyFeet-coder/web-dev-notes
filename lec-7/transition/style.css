@@ -1,0 +1,15 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    transition-duration: 2s; /*linear by default*/ 
+    /* for specific use case use */
+    transition-property: border-radius ;
+    transition-delay: 20ms;
+
+}
+
+div:hover{
+    background-color: aqua;
+    border-radius: 50%;
+}

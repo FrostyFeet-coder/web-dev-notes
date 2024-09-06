@@ -1,0 +1,131 @@
+div{
+    max-width: 800px;
+    border: 2px solid black;
+    margin: 2px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* h1{
+    color :red;
+}
+
+p{
+    background-color: lightblue;
+} */
+
+/* @media screen and (max-width:700px){
+    h1{
+        color: green;
+    }
+    p{
+        background-color: chocolate;
+    }
+
+} */
+
+/* ------------------------------------------------------------ */
+/* glt wala  */
+/* @media screen and (min-width:900px){
+    h1{
+        color: rgb(192, 233, 9);
+    }
+    p{
+        background-color: rgb(12, 117, 236);
+    }
+
+}@media screen and (min-width:600px){
+    h1{
+        color: rgb(15, 224, 15);
+    }
+    p{
+        background-color: rgb(196, 17, 101);
+    }
+
+}@media screen and (min-width:300px){
+    h1{
+        color: rgb(212, 111, 28);
+    }
+    p{
+        background-color: rgb(57, 30, 210);
+    }
+
+} */
+
+/* --------------------------------------------- */
+/* 
+ @media screen and (min-width:300px){
+    h1{
+        color: rgb(233, 9, 9);
+    }
+    p{
+        background-color: rgb(12, 117, 236);
+    }
+
+}@media screen and (min-width:600px){
+    h1{
+        color: rgb(15, 224, 15);
+    }
+    p{
+        background-color: rgb(196, 17, 101);
+    }
+
+}@media screen and (min-width:900px){
+    h1{
+        color: rgb(212, 111, 28);
+    }
+    p{
+        background-color: rgb(57, 30, 210);
+    }
+} */
+
+/* ------------------------------------------- */
+/* @media screen and (max-width:900px){
+    h1{
+        color: rgb(212, 111, 28);
+    }
+    p{
+        background-color: rgb(57, 30, 210);
+    }
+}
+@media screen and (max-width:600px){
+    h1{
+        color: rgb(15, 224, 15);
+    }
+    p{
+        background-color: rgb(196, 17, 101);
+    }
+
+}
+ @media screen and (max-width:300px){
+    h1{
+        color: rgb(233, 9, 9);
+    }
+    p{
+        background-color: rgb(12, 117, 236);
+    }
+
+} */
+
+
+/* min -> sabse choti value upar and max -> sabe bdi value upar and only follow 1 */
+
+
+ /* @media screen and (max-width:700px) , (orientation:portrait){
+    h1{
+        color: rgb(233, 9, 9);
+    }
+    p{
+        background-color: rgb(53, 153, 78);
+    }
+
+}  */
+
+
+@media screen and (min-width:800px) {
+    p{
+        align-content: center;
+    }
+    
+}

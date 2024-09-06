@@ -1,0 +1,17 @@
+h1::first-letter{
+    font-size: 100px;
+}
+
+p::first-line{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* before and after is use to add content */
+
+h1::after{
+    content: "pew pew";
+}
+/* unicode */
+h1::before{
+    content: " \2764 ";
+}

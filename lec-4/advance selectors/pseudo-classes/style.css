@@ -1,0 +1,68 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid salmon;
+
+}
+/* hover */
+div:hover{
+    background-color: aquamarine;
+    font-size: 50px;
+    width: 50px;
+}
+/* if border radius is half % of the height andd width then it wiil convert it into circle */
+/* div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid salmon;
+
+}
+
+div:hover{
+    border-radius: 50%;
+} */
+
+/* focus */
+input:focus{
+    font-size: 100px;
+    background-color: aqua;
+}
+
+/* active */
+a:active{
+    font-size: 50px;
+}
+
+/* visited */
+a:visited{
+    color: aquamarine;
+}
+
+li:first-child{
+    color: rgb(214, 144, 14);
+}
+
+li:last-child{
+    color: rgb(172, 27, 148);
+}
+/* 
+li:nth-of-type(2){
+    color: blue;
+}
+
+
+li:nth-of-type(even){
+    color: blue;
+}
+
+
+li:nth-of-type(odd){
+    color: red;
+}
+ */
+
+
+
+li:nth-of-type(2n+ 4){
+    color: blue;
+}

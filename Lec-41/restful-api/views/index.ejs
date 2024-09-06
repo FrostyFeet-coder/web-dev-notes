@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Displayin all books</h1>
+
+    <% for(let item of commentsArray){ %>
+        <section>
+        <div class="div-border">
+        <h1>id:<%=item.id %></h1>
+        <h2>Author:<%=item.author %></h2>
+        <h3>Comment:<%=item.comments %></h3>
+        <form action="/comments/<%=item.id %>?-method=DELETE" method="post"></form>
+        <button>DElete</button>
+        </div>
+        </section>
+    <%}%>
+    
+</body>
+</html>

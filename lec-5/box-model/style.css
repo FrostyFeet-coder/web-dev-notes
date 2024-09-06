@@ -1,0 +1,69 @@
+div{
+    background-color: aqua;
+
+    width: 100px;
+    height: 100px;
+    border: 5px gold solid;
+    padding: 20px;
+
+    /* margin: 20px;  for all sides*/
+
+    /* margin: 20px 100px 30px 40px;  top right bottom left*/
+    
+    /* margin: 20px 100px 30px ;  top left&right bottom*/
+
+    /* margin: 20px 40px;  top&bottom left&right*/
+
+    margin: 20px 40px;  
+
+    
+
+}
+
+span{
+    display: inline-block;  /* nature -> inline and propertis -> block*/
+
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    border: 5px gold solid;
+    padding: 20px;
+
+    /* margin: 20px;  for all sides*/
+
+    /* margin: 20px 100px 30px 40px;  top right bottom left*/
+    
+    /* margin: 20px 100px 30px ;  top left&right bottom*/
+
+    /* margin: 20px 40px;  top&bottom left&right*/
+
+    margin: 20px 40px;  
+
+    /* only blocks element follow box element property */
+
+}
+
+/* display :none doesn't leave the space 
+   visibility :hiddent leaves the space of element
+*/
+
+/* 
+block -> border
+block ->margin
+block ->padding
+block ->width 
+block ->height
+block ->line break
+
+
+inline-block->border
+inline-block->height 
+inline-block->margin
+inline-block->width
+
+inline-> border
+inline-> margin
+inline-> 
+
+
+*/

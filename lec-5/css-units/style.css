@@ -1,0 +1,26 @@
+/* em rem % vh vw are all relative unit */
+/* snowball effect is where child inheri parents size and double it for the andr wala child  */
+
+ul> li{
+    font-size: 200%;        /*  snowball effect */
+}
+
+ul> li{
+    font-size: 2em;         /*  snowball effect */
+}
+
+ul> li{
+    font-size: 2rem; /*  rem stands for root of html */
+}
+
+
+section{
+    width: 60vw;
+    height: 60vh;
+    background-color: blanchedalmond;
+}
+
+div{
+    width: 70vw;
+    background-color: rgb(79, 11, 236)
+}

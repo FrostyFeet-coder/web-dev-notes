@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      canvas {
+        border: 20px solid forestgreen;
+        background-color: black;
+      }
+    </style>
+  </head>
+ 	<body ontouchstart="touchStart(event)"
+						ontouchmove="touchMove(event)"
+						ontouchend="touchEnd()">
+            <audio src="./media/song1.mp3"></audio>
+    <canvas width="1000" height="800"></canvas>
+    <script src="app.js"></script>
+  </body>
+</html>

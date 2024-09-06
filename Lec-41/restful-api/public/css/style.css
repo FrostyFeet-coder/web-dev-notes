@@ -1,0 +1,15 @@
+
+section{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    width: 200px;
+    /* grid-row: inherit; */
+}
+
+.div-border{
+    background-color: aqua;
+    border: 2px solid black;
+    height: 200px;
+    width: 300px;
+}
